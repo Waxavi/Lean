@@ -140,6 +140,13 @@
     <Compile Include="FeeModelNotUsingAccountCurrency.cs" />
     <Compile Include="MaximumPortfolioDrawdownFrameworkAlgorithm.cs" />
     <Compile Include="CompositeRiskManagementModelFrameworkAlgorithm.cs" />
+    <Compile Include="My Strategies\BubbleRider\Bitcoin.cs" />
+    <Compile Include="My Strategies\BubbleRider\BubbleRider With Renko\BubbleRiderAndRenko.cs" />
+    <Compile Include="My Strategies\BubbleRider\BubbleRider With Renko\LoggerRenko.cs" />
+    <Compile Include="My Strategies\BubbleRider\BubbleRider With Renko\PositionRenko.cs" />
+    <Compile Include="My Strategies\BubbleRider\BubbleRider.cs" />
+    <Compile Include="My Strategies\BubbleRider\Logger.cs" />
+    <Compile Include="My Strategies\BubbleRider\Position.cs" />
     <Compile Include="ProcessSplitSymbolsRegressionAlgorithm.cs" />
     <Compile Include="SetAccountCurrencyCashBuyingPowerModelRegressionAlgorithm.cs" />
     <Compile Include="SetAccountCurrencySecurityMarginModelRegressionAlgorithm.cs" />
@@ -306,7 +313,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="My Strategies\BubbleRider\" />
+    <Folder Include="My Strategies\BubbleRider\BubbleRider With Renko\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
